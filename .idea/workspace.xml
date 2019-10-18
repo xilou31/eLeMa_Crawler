@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8035c834-410b-4751-bca3-e1486bbe5152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MeiTuan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeiTuanWaiMai.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meituan_id.csv" beforeDir="false" afterPath="$PROJECT_DIR$/meituan_id.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeiTuan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +174,12 @@
       <workItem from="1570704201420" duration="673000" />
       <workItem from="1570705015036" duration="4832000" />
       <workItem from="1570720155287" duration="273000" />
+      <workItem from="1570766324484" duration="3350000" />
+      <workItem from="1570785762717" duration="2058000" />
+      <workItem from="1571050589276" duration="1663000" />
+      <workItem from="1571058840753" duration="5926000" />
+      <workItem from="1571097553561" duration="1009000" />
+      <workItem from="1571102356461" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -196,14 +203,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MeiTuan.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Crawler.py</url>
-          <line>126</line>
-          <option name="timeStamp" value="6" />
+          <line>95</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -216,9 +218,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/eLeMa_Crawler$MeiTuan.coverage" NAME="MeiTuan Coverage Results" MODIFIED="1570707397566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eLeMa_Crawler$MeiTuan.coverage" NAME="MeiTuan Coverage Results" MODIFIED="1571051899027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crawler$Crawler.coverage" NAME="Crawler Coverage Results" MODIFIED="1569909099124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/eLeMa_Crawler$Crawler.coverage" NAME="Crawler Coverage Results" MODIFIED="1570707764818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eLeMa_Crawler$Crawler.coverage" NAME="Crawler Coverage Results" MODIFIED="1571097576412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>

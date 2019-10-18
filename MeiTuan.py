@@ -38,7 +38,7 @@ def crow_id(areaid):
                       'i_extend=C_b1Gimthomepagecategory11H__a; logan_session_token=gsfw4qdkegopn7vrmluy; '
                       '_lxsdk_s=16db45ee332-a5c-2e6-b0f%7C%7C185 '
             }
-    data = {"uuid": "c858cc0887ce461fbdbf.1570693975.1.0.0", "version": "8.3.3", "platform": 3, "app": "",
+    data = {"uuid": "1e006835d5be439b8488.1570766369.1.0.0", "version": "8.3.3", "platform": 3, "app": "",
             "partner": 126, "riskLevel": 1, "optimusCode": 10,
             "originUrl": "http://meishi.meituan.com/i/?ci=30&stid_b=1&cevent=imt%2Fhomepage%2Fcategory1%2F1",
             "offset": 0, "limit": 15, "cateId": 21329, "lineId": 0, "stationId": 0, "areaId": areaid, "sort": "default",
@@ -72,7 +72,7 @@ def crow_id(areaid):
         while offset < totalcount:
             offset += 15
             # 构造post请求参数，通过改变offset实现翻页
-            data2 = {"uuid": "c858cc0887ce461fbdbf.1570693975.1.0.0", "version": "8.3.3", "platform": 3, "app": "",
+            data2 = {"uuid": "1e006835d5be439b8488.1570766369.1.0.0", "version": "8.3.3", "platform": 3, "app": "",
                      "partner": 126, "riskLevel": 1, "optimusCode": 10,
                      "originUrl": "http://meishi.meituan.com/i/?ci=30&stid_b=1&cevent=imt%2Fhomepage%2Fcategory1%2F1",
                      "offset": offset, "limit": 15, "cateId": 21329, "lineId": 0, "stationId": 0, "areaId": areaid,
@@ -116,11 +116,11 @@ if __name__ == '__main__':
     # name = ['店铺名字', '类别', 'id', '地址', '日销售', '经度', '纬度']
     result = pd.DataFrame(columns=name, data=id_list)
     result = result.drop_duplicates()
-    result.to_csv("MeiTuanId.csv", encoding="utf-8")
+    result.to_csv("MeiTuanId1.csv", encoding="utf-8")
 
-    poiid = '180584081'
-    ctPoi = '059343649361170105379968473281275637644_a180584081_c0_e2745027750983486858_nareaid23'
-    url = "http://meishi.meituan.com/i/poi/" + poiid + "?ct_poi=" + ctPoi
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                             'Chrome/66.0.3359.139 Mobile Safari/537.36'}
-    r = requests.get(url, headers=headers)
+    # poiid = '180584081'
+    # ctPoi = '059343649361170105379968473281275637644_a180584081_c0_e2745027750983486858_nareaid23'
+    # url = "http://meishi.meituan.com/i/poi/" + poiid + "?ct_poi=" + ctPoi
+    # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+    #                          'Chrome/66.0.3359.139 Mobile Safari/537.36'}
+    # r = requests.get(url, headers=headers)
